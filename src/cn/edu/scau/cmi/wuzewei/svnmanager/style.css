@@ -1,0 +1,109 @@
+/* 左边菜单 */
+.left-menu {
+	-fx-background-color: #25ae60;
+	-fx-pref-height: 660;
+}
+/* 按钮通用样式 */
+.button {
+	/* 图片居中不平铺 */
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+}
+/* 左边菜单按钮 */
+.menu-btn {
+	-fx-background-color: #25ae60;
+	-fx-min-width: 50px;
+	-fx-min-height: 50px;
+}
+/* 鼠标悬浮时样式 */
+.menu-btn:hover {
+	-fx-background-color: #46ba79;
+	-fx-cursor: hand;
+}
+/* 鼠标点击时样式 */
+.menu-btn:focused {
+	-fx-background-color: #46ba79;
+}
+/* 按钮图片样式 */
+.icon1 {
+	-fx-background-image: url("/resources/icon_01.png");
+}
+
+.icon2 {
+	-fx-background-image: url("/resources/icon_02.png");
+}
+
+.icon3 {
+	-fx-background-image: url("/resources/icon_03.png");
+}
+
+.icon4 {
+	-fx-background-image: url("/resources/icon_04.png");
+}
+
+/* 普通按钮样式 */
+.btn1 {
+	-fx-background-color: #ffffff;
+	-fx-text-fill: #25ae60;
+	-fx-arc-height: 0;
+	-fx-arc-width: 0;
+	-fx-pref-width: 70;
+	-fx-border-color: #25ae60;
+}
+/* 鼠标悬浮时样式 */
+.btn1:hover {
+	-fx-text-fill: #46ba79;
+	-fx-border-color: #46ba79;
+	-fx-background-color: #c0c0c0;
+	-fx-cursor: hand;
+}
+/* 鼠标点击时样式 */
+.btn1:focused {
+	-fx-text-fill: #46ba79;
+	-fx-border-color: #46ba79;
+}
+
+/* 目录树样式 */
+.tree-view {
+	-fx-control-inner-background: #3e3e3e;
+	-fx-focus-color: transparent;
+	-fx-accent: #2bffb7;
+	-fx-padding: 0;
+}
+/* 取消选中边框 */
+.tree-view:focused {
+	-fx-padding: 0;
+}
+/* 目录树垂直滚动条 */
+.tree-view>.virtual-flow>.scroll-bar:vertical {
+	-fx-opacity: 0.1;
+	-fx-background-color: #3e3e3e;
+}
+/* 目录树水平滚动条 */
+.tree-view>.virtual-flow>.scroll-bar:horizontal {
+	-fx-opacity: 0.1;
+	-fx-background-color: #3e3e3e;
+}
+
+/* 查看文件文本区域样式 */
+.scroll-pane>.viewport {
+	-fx-background-color: transparent;
+}
+
+.scroll-pane {
+	-fx-background-color: #ffffff;
+}
+
+.scroll-pane>.corner {
+	-fx-background-color: #ffffff;
+	-fx-background-insets: 0, 1 0 0 1;
+}
+
+/* 列表样式 */
+.list-view:focused {
+	-fx-padding: 0;
+}
+
+.list-cell:selected {
+	-fx-background-color: #25ae60;
+}
